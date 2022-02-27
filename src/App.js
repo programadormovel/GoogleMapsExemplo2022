@@ -37,6 +37,19 @@ const styles = StyleSheet.create({
     bottom: 0,
     margin: 32,
   },
+  emoji: {
+    position: 'absolute',
+    fontSize: 20,
+    // Usa o background pra fazer um círculo em volta do emoji
+    backgroundColor: 'red',
+    borderRadius: 25,
+    borderColor: 'black',
+    borderWidth: 1,
+    paddingRight: 2,
+    paddingLeft: 4,
+    paddingBottom: 4,
+    fontFamily: 'NotoColorEmoji',
+  },
 });
 
 export default App;
