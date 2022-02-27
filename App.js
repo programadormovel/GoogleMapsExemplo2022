@@ -24,8 +24,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
+    backgroundColor: '#F5FCFF',
+    padding: 10,
   },
   map: {
     position: 'absolute',
@@ -33,6 +35,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
+    margin: 32,
   },
 });
 
